@@ -406,5 +406,3 @@ void Sim::evolve()
     }
     current_state = new_state;
 }
-
-
