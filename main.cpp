@@ -8,18 +8,18 @@ void draw_cell(int i)
     DrawRectangle( result.rem*settings::square_size,
                    result.quot*settings::square_size-1,
                    settings::square_size-1,
-                   settings::square_size, WHITE);
+                   settings::square_size, BLUE );
 }
 
 void draw_background()
 {
-    ClearBackground(WHITE);
-    for (int i = 0; i < settings::cell_count; i++) {
-        div_t result = div(i, settings::board_width);
+    ClearBackground( BLACK );
+    for ( int i = 0; i < settings::cell_count; i++ ) {
+        div_t result = div( i, settings::board_width );
         DrawRectangle( result.rem*settings::square_size,
                        result.quot*settings::square_size,
-                       settings::square_size-1,
-                       settings::square_size-1, BLACK);
+                       settings::square_size - 1,
+                       settings::square_size - 1, WHITE );
     }
 }
 
