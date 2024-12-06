@@ -8,7 +8,7 @@ void draw_cell(int i)
     DrawRectangle( result.rem*settings::square_size,
                    result.quot*settings::square_size-1,
                    settings::square_size-1,
-                   settings::square_size, GREEN);
+                   settings::square_size, WHITE);
 }
 
 void draw_background()
