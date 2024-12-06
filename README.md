@@ -8,6 +8,7 @@ The program is written in C++.
 
 raylib is used for rendering and boost tet is used for unit testing.
 
-![game of life](https://github.com/user-attachments/assets/d8591a15-1c05-44c9-a7ce-5c901c86ac2a)
+![game of life](https://github.com/user-attachments/assets/03cc1303-8857-4947-a274-5bfb5a6c93ec)
+
 
 
